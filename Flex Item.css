@@ -1,0 +1,38 @@
+div{
+    height:100px;
+    width: 100px;
+    border: 2px solid #000;
+}
+
+#container{
+    height: 500px;
+    width: 1000px;
+    background-color:darkslategrey ;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+}
+
+#box1{
+    background-color: aliceblue;
+    height: 200px;
+    flex-grow: 2;
+}
+
+#box2{
+    background-color: antiquewhite;
+    flex-grow: 2;
+
+}
+
+#box3{
+    background-color: azure;
+}
+
+#box4{
+    background-color: burlywood;
+}
+#box5{
+    background-color: bisque;
+}

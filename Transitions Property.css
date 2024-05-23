@@ -1,0 +1,24 @@
+div{
+    height:200px;
+    width: 200px;
+    background-color: beige;
+    color: black;
+}
+
+div:hover{
+    background-color:darkslategray;
+    color: white;
+    font-size: x-large;
+    transition-timing-function: ease-in;
+    transition-duration: 3s;
+    transition-delay: 2s;
+}
+
+div:focus-within{
+    background-color: brown;
+    color: aliceblue;
+    font-size: medium;
+    transition-timing-function: step-end;
+    transition-duration: 5px;
+    transition-delay: 2s;
+}

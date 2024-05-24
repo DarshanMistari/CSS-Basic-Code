@@ -1,0 +1,44 @@
+body
+{
+    background-color: black;
+}
+h1
+{
+    color: rgb(45, 45, 45);
+    background-color: aliceblue;
+}
+h2
+{
+    color: rgb(90, 00, 90);
+    background-color: beige;
+}
+h3
+{
+    color: rgb(10,90, 100);
+    background-color: azure;
+}
+h4
+{
+    color: rgb(81, 50, 90);
+    background-color: cornsilk;
+}
+h5
+{
+    color: #090809;
+    background-color: antiquewhite;
+}
+h6
+{
+    color: #0905ff;
+    background-color: azure;
+}
+bold
+{
+    color: #a9000f;
+    background-color: lightcyan;
+}
+p
+{
+    color: #9e3a9c;
+    background-color: azure;
+}

@@ -1,0 +1,32 @@
+.nevigationbar{
+    height: 450px;
+    width: 1000px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: darkred;
+}
+
+li{
+    list-style-type: none;
+   
+}
+
+#outer{
+    height: 300px;
+    width: 300px;
+    background-color:darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Image</title>
+</head>
+<style>
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        animation-name: show;
+        animation-duration: 10s;
+        position: relative;
+        animation-direction: alternate;
+    }
+    @keyframes show{
+        0%{background-color: red; left:0; top: 0;}
+        25%{background-color: blue; left:200; top: 0;}
+        50%{background-color: green;left: 0; top: 200;}
+        100%{background-color: lightcoral; left: 0;top: 0;}
+    }
+</style>
+<body>
+    <div>
+        <img src="Bgimage.jpg" width="100px" height="100px">
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+h1{
+    color: darkred;
+}
+#h2{
+    color: darkseagreen;
+    background-color: black;
+    text-align: center;
+}
+.h3{
+    color: darkslategray;
+    background-color: cornsilk;
+    text-align: left;
+}
+p{
+    color: red;
+    background-color: black;
+    text-align: right;
+    border: 5px solid darkseagreen;
+}

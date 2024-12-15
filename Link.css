@@ -1,0 +1,14 @@
+a:li{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+a:active{
+    color: orange;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
